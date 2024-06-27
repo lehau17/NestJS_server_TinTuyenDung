@@ -49,6 +49,6 @@ export class UsersService {
   }
 
   remove(id: string) {
-    return this.userModel.softDelete({_id:id})
+    return this.userModel.softDelete({ _id: id })
   }
 }
